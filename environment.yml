@@ -5,6 +5,7 @@ channels:
   - defaults
 dependencies:
   - python=3.11
+  - pip
   - jupyter
   - jupyterlab
   - numpy
@@ -13,10 +14,9 @@ dependencies:
   - seaborn
   - scipy
   - scikit-learn
-  - r-base=4.3
+  - r-base
   - r-tidyverse
   - r-rmarkdown
-  - r-knitr
   - r-irkernel
   - r-survival
   - r-survminer
