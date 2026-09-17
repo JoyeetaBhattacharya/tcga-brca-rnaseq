@@ -1,0 +1,32 @@
+name: tcga-brca
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.11
+  - jupyter
+  - jupyterlab
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - scipy
+  - scikit-learn
+  - r-base=4.3
+  - r-tidyverse
+  - r-rmarkdown
+  - r-knitr
+  - r-irkernel
+  - r-survival
+  - r-survminer
+  - bioconductor-deseq2
+  - bioconductor-tcgabiolinks
+  - bioconductor-summarizedexperiment
+  - bioconductor-clusterprofiler
+  - bioconductor-org.hs.eg.db
+  - bioconductor-enhancedvolcano
+  - pip:
+    - pydeseq2
+    - gseapy
+    - lifelines
